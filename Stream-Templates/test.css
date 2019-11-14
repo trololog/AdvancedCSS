@@ -10,4 +10,40 @@ body {
     font-size:16px;
     line-height: 1.7;
     color: #777;
+    background-image: linear-gradient(to right, rgba(118,81,253,0.8), rgba(0,169,255,0.8)), url('./twitch.jpg');
+    height: 100vh;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.table-container {
+    background-color: #ffffff;
+    width: 730px;
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+td {
+    height: 50px;
+}
+
+th {
+    border-bottom: 1px solid gray;
+}
+
