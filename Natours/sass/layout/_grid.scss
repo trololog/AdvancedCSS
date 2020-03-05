@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+    /*background-color: #f7f7f7;*/
     margin: 0 auto;
 
     &:not(:last-child) {
@@ -11,7 +11,6 @@
 
     /*^for start,* for any,$ for ending*/
     [class^="col-"] {
-        background-color: orangered;
         float: left;
 
         &:not(:last-child) {
