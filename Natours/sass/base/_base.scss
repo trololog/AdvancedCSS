@@ -9,6 +9,10 @@
 html {
     //Defines the actual size of 1rem
     font-size: 62.5%;
+
+    @include respond(phone) {
+        font-size: 50%;
+    }
 }
 
 body {
